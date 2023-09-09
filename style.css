@@ -1,0 +1,83 @@
+.container {
+  margin: 25px auto;
+  padding: 10px 100px 100px 100px;
+  max-width: 700px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(163, 175, 243) 0%,
+    rgb(220, 182, 232) 100.2%
+  );
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+}
+
+.form {
+  border-radius: 10px;
+}
+
+h1 {
+  font-weight: thin;
+  color: black;
+  padding: 50px 0px 15px 0px;
+  font-size: 50px;
+  font-family: "EB Garamond", serif;
+}
+
+h2 {
+  font-size: 40px;
+  padding-bottom: 15px;
+  color: black;
+}
+
+.icon {
+  font-size: 80px;
+  color: rgba(255, 255, 255, 0.896);
+  filter: drop-shadow(3px 5px 2px rgba(114, 112, 112, 0.574));
+  line-height: 100%;
+}
+.thunder {
+  font-size: 35px;
+  color: rgba(255, 255, 255, 0.896);
+  filter: drop-shadow(3px 5px 2px rgba(114, 112, 112, 0.574));
+}
+.rain {
+  font-size: 35px;
+  color: rgba(255, 255, 255, 0.896);
+  filter: drop-shadow(3px 5px 2px rgba(114, 112, 112, 0.574));
+}
+hr {
+  padding: 10px 0px 20px 0px;
+}
+
+.units {
+  position: relative;
+  top: -70px;
+  left: 45px;
+  font-size: 15px;
+}
+
+#today {
+  position: relative;
+  top: -40px;
+}
+
+.forecast {
+  font-size: 10px;
+}
+
+#specifications {
+  position: relative;
+  top: 40px;
+}
+#description {
+  text-transform: capitalize;
+}
