@@ -96,6 +96,7 @@ function weatherData(city) {
     showWind(response);
   });
 }
+weatherData("Nijmegen");
 
 function showTemperature(response) {
   let temperatureToday = Math.round(response.data.main.temp);
